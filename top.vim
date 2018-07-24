@@ -13,6 +13,10 @@ function TopLoadSubScript(path)
     exec 'source ' . p
 endfunction
 
+if TopGetOS() == 'Darwin'
+    call TopLoadSubScript('maconly.vim')
+endif
+
 call TopLoadSubScript('general.vim')
 call TopLoadSubScript('tab-config.vim')
 call TopLoadSubScript('mapping.vim')
