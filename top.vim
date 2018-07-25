@@ -41,6 +41,7 @@ endif
 Plug 'zchee/deoplete-go', {'do': 'make'}
 Plug 'sebastianmarkow/deoplete-rust'
 Plug 'Shougo/deoplete-clangx'
+Plug 'sillybun/vim-repl'
 call plug#end()
 
 " Plug Config
@@ -49,3 +50,4 @@ call TopLoadSubScript('tagbar.vim')
 call TopLoadSubScript('nerdtree.vim')
 call TopLoadSubScript('echodoc.vim')
 call TopLoadSubScript('deoplete.vim')
+call TopLoadSubScript('vim-repl.vim')
