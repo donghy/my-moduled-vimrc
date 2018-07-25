@@ -1,6 +1,6 @@
 let g:repl_program = {
     \ 'python': 'python3',
-    \ 'default': 'bash'
+    \ 'default': 'python3'
     \ }
 
 let g:repl_exit_commands = {
