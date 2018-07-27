@@ -42,6 +42,7 @@ Plug 'zchee/deoplete-go', {'do': 'make'}
 Plug 'sebastianmarkow/deoplete-rust'
 Plug 'Shougo/deoplete-clangx'
 Plug 'sillybun/vim-repl'
+Plug 'zchee/deoplete-jedi'
 call plug#end()
 
 " Plug Config

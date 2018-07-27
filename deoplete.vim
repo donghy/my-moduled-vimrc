@@ -14,3 +14,8 @@ let b:racer_path = substitute(system('which racer'), '\n', '', '')
 let g:deoplete#sources#rust#racer_binary=b:racer_path
 let g:deoplete#sources#rust#rust_source_path=$RUST_SRC_PATH
 let g:deoplete#sources#rust#disable_keymap=1
+
+" deoplete-python
+let b:py3_path = substitute(system('which python3'), '\n', '', '')
+"let g:deoplete#sources#jedi#python_path = b:py3_path
+let g:deoplete#sources#jedi#python_path = '/usr/local/bin/python3'
