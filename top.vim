@@ -20,6 +20,7 @@ endif
 call TopLoadSubScript('general.vim')
 call TopLoadSubScript('tab-config.vim')
 call TopLoadSubScript('mapping.vim')
+call TopLoadSubScript('jj.vim')
 
 " Plug Management
 call plug#begin("~/.vim/plugged")

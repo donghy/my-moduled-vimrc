@@ -11,7 +11,7 @@ function MyTrigerTT()
 endfunction
 
 inoremap jk <Esc>
-inoremap jj <Esc>o
+inoremap jj :call TriggerJJ()
 inoremap jl <Esc>$a
 
 nnoremap <leader>s :LeaderfFunction<Cr>
