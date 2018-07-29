@@ -20,7 +20,7 @@ endif
 call TopLoadSubScript('general.vim')
 call TopLoadSubScript('tab-config.vim')
 call TopLoadSubScript('mapping.vim')
-call TopLoadSubScript('jj.vim')
+call TopLoadSubScript('joe.vim')
 
 " Plug Management
 call plug#begin("~/.vim/plugged")
@@ -42,8 +42,8 @@ endif
 Plug 'zchee/deoplete-go', {'do': 'make'}
 Plug 'sebastianmarkow/deoplete-rust'
 Plug 'Shougo/deoplete-clangx'
-Plug 'sillybun/vim-repl'
 Plug 'zchee/deoplete-jedi'
+Plug 'w0rp/ale'
 call plug#end()
 
 " Plug Config
@@ -52,4 +52,3 @@ call TopLoadSubScript('tagbar.vim')
 call TopLoadSubScript('nerdtree.vim')
 call TopLoadSubScript('echodoc.vim')
 call TopLoadSubScript('deoplete.vim')
-call TopLoadSubScript('vim-repl.vim')
