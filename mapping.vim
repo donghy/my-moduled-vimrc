@@ -11,6 +11,7 @@ function MyTrigerTT()
 endfunction
 
 inoremap jk <Esc>
+inoremap <C-c> <Esc>
 inoremap jj <Esc>:call BoxerJoe(0)<Cr>
 inoremap JJ <Esc>:call BoxerJoe(1)<Cr>
 inoremap jl <Esc>$a

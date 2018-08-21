@@ -3,3 +3,6 @@ if has('python3')
 endif	
 set backspace=2
 set pyxversion=3
+
+let g:ch_inp = 'com.sogou.inputmethod.sogou.pinyin'
+let g:en_inp = 'com.apple.keylayout.ABC'
