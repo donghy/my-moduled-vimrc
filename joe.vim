@@ -1,8 +1,8 @@
 let g:Joe_language_config = {
-	\ 'python': ['', ':'],
-	\ 'cpp': [';', ' {'],
-	\ 'c': [';', ' {']
-\}
+	    \ 'python': ['', ":\<cr>"],
+	    \ 'cpp': [';', " {\<cr>"],
+	    \ 'c': [';', " {\<cr>"]
+	    \}
 
 
 function! BoxerJoe(idx)
@@ -14,5 +14,5 @@ function! BoxerJoe(idx)
 	let lcfg = g:Joe_language_config[lft]
 	let append_char = lcfg[a:idx]
     endif
-    :call feedkeys("$a" . append_char. "\<Cr>", 't')
+    :call feedkeys("$a" . append_char, 't')
 endfunction
