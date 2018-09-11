@@ -7,7 +7,7 @@ set completeopt-=preview
 " deoplete-clangx 
 call deoplete#custom#var('clangx', 'clang_binary', '/usr/bin/clang')
 call deoplete#custom#var('clangx', 'default_c_options', '')
-call deoplete#custom#var('clangx', 'default_cpp_options', '-std=c++11')
+call deoplete#custom#var('clangx', 'default_cpp_options', '-std=c++14 -stdlib=libc++')
 
 " deoplete-rust 
 let b:racer_path = substitute(system('which racer'), '\n', '', '')
