@@ -17,5 +17,5 @@ let g:deoplete#sources#rust#disable_keymap=1
 
 " deoplete-python
 let b:py3_path = substitute(system('which python3'), '\n', '', '')
-"let g:deoplete#sources#jedi#python_path = b:py3_path
-let g:deoplete#sources#jedi#python_path = '/usr/local/bin/python3'
+let g:deoplete#sources#jedi#python_path = b:py3_path
+"let g:deoplete#sources#jedi#python_path = '/usr/local/bin/python3'
